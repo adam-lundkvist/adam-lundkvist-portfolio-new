@@ -1,0 +1,269 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <title>Adam Lundkvist - I Create Websites That Strengthen Your Business</title>
+
+    <meta name="description" content="I Create Websites That Strengthen Your Business">
+    <meta name="keywords" content="Web developer, front-end developer, front end developer, frontend-utvecklare, webbutvecklare">
+    <meta name="author" content="Adam Lundkvist">
+
+    <link rel="icon" href="img/favicon.png" />
+
+    <meta name="viewport" content="width=device-width,initial-scale=1" />
+    <link rel="stylesheet" href="style.css" />
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-KK94CHFLLe+nY2dmCWGMq91rCGa5gtU4mk92HdvYe+M/SXH301p5ILy+dN9+nJOZ" crossorigin="anonymous">
+
+    <script
+      src="https://kit.fontawesome.com/9cd636eced.js"
+      crossorigin="anonymous"
+    ></script>
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap"
+      rel="stylesheet"
+    />
+
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Space+Mono:ital,wght@0,400;0,700;1,400;1,700&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,300;0,400;0,500;0,600;0,700;0,800;1,300;1,400;1,500;1,600;1,700;1,800&display=swap" rel="stylesheet">
+  </head>
+  <body>
+      <!-- <a class="skip-main" href="#main-content">Hoppa till huvudinnehåll</a> -->
+    <header>
+      <nav
+        id="navbar"
+        class="navbar navbar-expand-lg shadow p-3"
+        aria-label="Offcanvas navbar large"
+      >
+        <div class="container">
+          <a class="navbar-brand" href="./index.html"
+              id="navbar-logo">ADAM LUNDKVIST
+          </a>
+          <button
+            class="navbar-toggler border-0"
+            type="button"
+            data-bs-toggle="offcanvas"
+            data-bs-target="#offcanvasNavbar2"
+            aria-controls="offcanvasNavbar2"
+          >
+            <i
+              class="fa-solid fa-bars text-black fs-3"
+              id="hamburger-open"></i>
+          </button>
+          <div
+            class="offcanvas offcanvas-end"
+            tabindex="-1"
+            id="offcanvasNavbar2"
+            aria-labelledby="offcanvasNavbar2Label"
+          >
+            <div class="offcanvas-header">
+              <a href="./index.html"
+                  class="offcanvas-title text-black text-decoration-none"
+                  id="offcanvasNavbar2Label"
+                  >ADAM LUNDKVIST</a>
+
+              <button
+                type="button"
+                id="close-btn"
+                class="border-0 justify-content-end"
+                data-bs-dismiss="offcanvas"
+                aria-label="Close"
+              ><i class="fa-solid fa-xmark text-black fs-3"></i></button>
+            </div>
+            <div class="offcanvas-body">
+              <ul class="navbar-nav justify-content-end flex-grow-1 pe-3">
+                <li class="nav-item">
+                  <a
+                    class="nav-link text-black position-relative p-2"
+                    href="#cases"
+                    >CASES</a
+                  >
+                </li>
+                <li class="nav-item">
+                  <a
+                    class="nav-link text-black position-relative p-2"
+                    href="#about"
+                    >ABOUT</a
+                  >
+                </li>
+                <li class="nav-item">
+                  <a
+                    class="nav-link text-black position-relative p-2"
+                    href="#contact"
+                    >CONTACT</a
+                  >
+                </li>
+              </ul>
+            </div>
+          </div>
+        </div>
+      </nav>
+    </header>
+    <main class="main-section">
+      <div id="intro" class="min-vh-100 bg-light d-flex align-items-center">
+        <article class="intro-article container text-center">
+          <h1 class="fw-light display-3 my-3">
+            Hey, My Name is <span class="fw-bold">Adam Lundkvist.</span>
+          </h1>
+          <h2 class="fw-light">I Create Websites That Strengthen Your Business</h2>
+          <a id="jump-to-section" class="general-btns my-4 py-2 px-4 position-relative btn btn-lg" href="#cases">CASES</a>
+        </article>
+      </div>
+
+      <div id="about" class="container my-5 py-5">
+        <h2 class="section-heading py-3 position-relative my-5">
+        ABOUT ME
+      </h2>
+      <div class="d-flex align-items-center">
+        <div class="row section-div gap-1">
+          <article id="about-info" class="col-lg-7">
+            <h3 class="sub-section-title">Introduction</h3>
+            <p>
+              With a love for front-end development, building everything that's
+              visible on a web page is something I enjoy doing. I always strive
+              for a clean and sharp look as well as user-centered design that
+              will lead to a sucessful website.
+            </p>
+          </article>
+          <section id="skills-info" class="col-lg-4">
+            <h3 class="sub-section-title">Skills</h3>
+            <ul id="skills" class="d-flex flex-wrap">
+              <li class="border border-black rounded-3 py-2 px-3">JavaScript</li>
+              <li class="border border-black rounded-3 py-2 px-3">React.js</li>
+              <li class="border border-black rounded-3 py-2 px-3">Interaction Design</li>
+              <li class="border border-black rounded-3 py-2 px-3">HTML</li>
+              <li class="border border-black rounded-3 py-2 px-3">CSS</li>
+              <li class="border border-black rounded-3 py-2 px-3">Responsive Web Design</li>
+              <li class="border border-black rounded-3 py-2 px-3">Bootstrap</li>
+              <li class="border border-black rounded-3 py-2 px-3">WordPress</li>
+            </ul>
+          </section>
+        </div>
+        </div>
+      </div>
+
+
+      <div id="cases" class="container min-vh-100">
+      <h2 class="section-heading py-3 position-relative my-5">
+        CASES
+      </h2>
+      <div class="container case">
+            <div
+              class="row align-items-center"
+            >
+              <div class="col-lg-7 ps-0 pe-3 order-2 order-lg-1">
+                <h3 class="display-7 fw-bold pt-5 pt-lg-0">BookQuery</h3>
+                <p class="">
+                  This React-made web app has an implemented search function that searches through The Open Library API and returns the results. A list of books is returned. The user can later view more info about a specific book.</p>
+                  <div class="my-4">
+                    <ul id="tools" class="d-flex flex-wrap">
+                      <li class="tool">React.js</li>
+                      <li class="tool">JavaScript</li>
+                      <li class="tool">Bootstrap</li>
+                      <li class="tool">CSS</li>
+                      <li class="tool">Netlify</li>
+                    </ul>    
+                  </div>
+                <div
+                  class="d-grid gap-2 d-md-flex justify-content-md-start mb-4 mb-lg-3"
+                >
+                  <button
+                    type="button"
+                    class="btn-lg my-1 px-4 py-2 case-btns live-btn position-relative"
+                  >
+                  <a class="text-decoration-none text-white" href="https://open-library-react.netlify.app/" target="_blank">LIVE LINK</a>
+              </button>
+                </div>
+              </div>
+              <div class="col-lg-5 p-0 overflow-hidden shadow case-img-div order-1 order-lg-2">
+                <a href="https://open-library-react.netlify.app/" target="_blank"><img
+                  class="case-img"
+                  src="img/bookquery.png"
+                  alt="bookquery image"
+                /></a>
+              </div>
+            </div>
+          </div>
+
+      <div class="container case">
+            <div
+              class="row align-items-center"
+            >
+              <div class="col-lg-7 ps-0 pe-3 order-2 order-lg-1">
+                <h3 class="display-7 fw-bold pt-5 pt-lg-0">Skoknuten</h3>
+                <p class="">
+                  In this project I built the front-end of a website with a functional shopping cart. The main focus of the project is the functionality of the shopping cart, where functions such as adding products and incrementing or decrementing quantities have been implemented.
+                </p>
+                 <div class="my-4">
+                    <ul id="tools" class="d-flex flex-wrap">
+                      <li class="tool">JavaScript</li>
+                      <li class="tool">HTML</li>
+                      <li class="tool">CSS</li>
+                      <li class="tool">Github</li>
+                      <li class="tool">Netlify</li>
+                    </ul>    
+                  </div>
+                <div
+                  class="d-grid gap-2 d-md-flex justify-content-md-start mb-4 mb-lg-3"
+                >
+                  <button
+                    type="button"
+                    class="btn-lg my-1 px-4 py-2 case-btns live-btn position-relative"
+                  >
+                  <a class="text-decoration-none text-white" href="https://skoknuten.netlify.app/" target="_blank">LIVE LINK</a>
+              </button>
+                </div>
+              </div>
+              <div class="col-lg-5 p-0 overflow-hidden shadow case-img-div order-1 order-lg-2">
+                <a href="https://skoknuten.netlify.app/" target="_blank">
+                  <img
+                  class="case-img"
+                  src="img/skoknuten.PNG"
+                  alt="skoknuten image"
+                /></a>
+              </div>
+            </div>
+          </div>
+      
+    </div>
+
+      <div id="contact" class="container my-5 py-5">
+        <h2 class="section-heading py-3 position-relative">
+        CONTACT ME
+        </h2>
+        <div id="contact-info" class="my-5 py-5">
+          <a
+            id="contact-btn"
+            class="general-btns text-decoration-none"
+            href="mailto:adamlundkvist00@gmail.com"
+            >Email</a>
+        </div>
+      </div>
+    </main>
+    <footer>
+      <div id="footer-section" class="container">
+        <h2 class="fs-5">Designed & Built by Adam Lundkvist</h2>
+        <div id="social-box" class="d-flex align-items-center">
+          <a
+            href="https://github.com/adam-lundkvist"
+            target="_blank"
+            ><i class="fa-brands fa-github text-white fs-3"></i></a>
+          <a
+            href="https://www.linkedin.com/in/adam-lundkvist-b4b699199/"
+            target="_blank"
+            ><i class="fa-brands fa-linkedin-in text-white fs-3 mx-2"></i></a>
+        </div>
+      </div>
+    </footer>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha3/dist/js/bootstrap.bundle.min.js" integrity="sha384-ENjdO4Dr2bkBIFxQpeoTz1HIcje39Wm4jDKdf19U8gI4ddQ3GYNS7NTKfAdVQSZe" crossorigin="anonymous"></script>
+    <script src="script.js"></script>
+  </body>
+</html>
